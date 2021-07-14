@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "css-loader": "^5.2.6",
+    "gulp": "^4.0.2",
     "loader-css": "^0.1.0",
     "lodash": "^4.17.21",
     "normalize.css": "^8.0.1",

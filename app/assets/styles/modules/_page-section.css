@@ -8,4 +8,23 @@
     background-color: $mainBlue;
     color: white;
   }
+
+  &--testimonials {
+    background-size: cover;
+  }
+  &--no-b-padding-until-medium {
+    padding-bottom: 0;
+
+    @mixin atMedium {
+      padding: 4.5rem;
+    }
+  }
+
+  &--no-b-padding-until-large {
+    padding-bottom: 0;
+
+    @mixin atLarge {
+      padding: 4.5rem;
+    }
+  }
 }
